@@ -18,6 +18,14 @@ const len = page.data.length;
 ---
 
 <MainGridLayout>
-    <PostPage page={page}></PostPage>
-    <Pagination class="mx-auto onload-animation" page={page} style={`animation-delay: calc(var(--content-delay) + ${(len)*50}ms)`}></Pagination>
+    {len === 0 ? (
+        <div class="card-base p-8 text-center text-black/75 dark:text-white/75 onload-animation">
+            Chưa có bài viết nào.
+        </div>
+    ) : (
+        <>
+            <PostPage page={page}></PostPage>
+            <Pagination class="mx-auto onload-animation" page={page} style={`animation-delay: calc(var(--content-delay) + ${(len)*50}ms)`}></Pagination>
+        </>
+    )}
 </MainGridLayout>
