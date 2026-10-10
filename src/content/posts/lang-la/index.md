@@ -188,5 +188,6 @@ Sau.
 
 Các chức năng hoạt động bình thường.
 
-
 Chỉ dành cho mục đích học tập và nghiên cứu, không sử dụng vào mục đích thương mại hoặc vi phạm pháp luật.
+
+![LuongVD](https://komarev.com/ghpvc/?username=luongbingboong&label=LuongVD&style=flat-square)
